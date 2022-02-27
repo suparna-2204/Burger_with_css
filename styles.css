@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #fad5a5;
+}
+h1 {
+	text-align: center;
+	color: red;
+	font-size: 80px;
+	margin-top: 50px;
+}
+section {
+	transform: translate(30%, 50%);
+}
+.burger:after {
+	content: "";
+	display: block;
+	width: 10px;
+	height: 6px;
+	border-radius: 40%;
+	box-shadow: 
+	100px -225px white,
+	190px -225px white,
+	280px -225px white,
+	370px -225px white,
+
+	60px -185px white,
+	160px -185px white,
+	250px -185px white,
+	340px -185px white,
+	430px -185px white;
+}
+.bun {
+	height: 100px;
+	width: 500px;
+	border-top: 90px solid #f5b230;
+	border-bottom: 60px solid #f5b230;
+	border-radius: 30% 30% 15% 15%;
+}
+.cheese {
+	height: 25px;
+	width: 450px;
+	margin-left: 25px;
+	background-color: #fdda0d;
+	border-radius: 10px 10px;	
+}
+.lettuce {
+	height: 25px;
+	width: 450px;
+	margin-left: 25px;
+	background-color: #4dbb17;
+	border-radius: 10px 10px;
+}
+.meat {
+	height: 50px;
+	width: 480px;
+	margin-left: 10px;
+	background-color: #880808;
+	border-radius: 20px 20px;
+}
+.meat:after {
+	content: "";
+	display: block;
+	width: 8px; 
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 35px solid #fdda0d;
+	margin-left: 340px;
+}
